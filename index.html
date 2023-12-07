@@ -1,129 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Basic -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 
-    <title>Kamu Hebat</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <!-- slider stylesheet -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 
-    <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <title>Kamu Hebat</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- responsive style -->
-    <link href="css/responsive.css" rel="stylesheet" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 
-      .myicon {
-        color: #63467f;
-        font-size: 55px;
-      }
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
+    .myicon {
+      color: #63467f;
+      font-size: 55px;
+    }
+
+    nav {
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgb(255, 255, 255);
+    }
+
+    @media (min-width: 995px) {
       nav {
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1000;
-        background: rgb(255, 255, 255);
-      }
-
-      @media (min-width: 995px) {
-        nav {
-          background: linear-gradient(
-            180deg,
+        background: linear-gradient(180deg,
             rgba(255, 255, 255, 1) 0%,
             rgba(255, 255, 255, 1) 70%,
-            rgba(255, 255, 255, 0) 100%
-          );
-        }
-
-        #shop {
-          padding-top: 10rem;
-        }
-
-        #why {
-          padding-top: 10rem;
-        }
-
-        #testimonial {
-          padding-top: 10rem;
-        }
+            rgba(255, 255, 255, 0) 100%);
       }
 
-      .navbar-collapse {
-        border-radius: 15px !important;
+      #shop {
+        padding-top: 10rem;
       }
-    </style>
-  </head>
 
-  <body>
-    <nav class="hero_area">
-      <!-- header section strats -->
-      <header class="header_section">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
-            <span> KAMU HEBAT </span>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class=""></span>
-          </button>
+      #why {
+        padding-top: 10rem;
+      }
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#shop"> Shop </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#why"> Why Us </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonial"> Testimonial </a>
-              </li>
-              <!-- <li class="nav-item">
+      #testimonial {
+        padding-top: 10rem;
+      }
+    }
+
+    .navbar-collapse {
+      border-radius: 15px !important;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+          <span> KAMU HEBAT </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shop"> Shop </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#why"> Why Us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial"> Testimonial </a>
+            </li>
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Us</a>
             </li> -->
-            </ul>
-            <!-- <div class="user_option">
+          </ul>
+          <!-- <div class="user_option">
               <a href="">
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <span> Login </span>
@@ -137,163 +118,149 @@
                 </button>
               </form>
             </div> -->
+        </div>
+      </nav>
+    </header>
+    <!-- end header section -->
+  </nav>
+  <!-- end hero area -->
+
+  <div class="hero_area page-section" id="">
+    <!-- header section strats -->
+    <!-- slider section -->
+
+    <section class="slider_section" style="margin-top: 60px">
+      <div class="slider_container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner hero">
+            <!-- Slide content will be dynamically added here using jQuery -->
           </div>
-        </nav>
-      </header>
-      <!-- end header section -->
-    </nav>
-    <!-- end hero area -->
-
-    <div class="hero_area page-section" id="">
-      <!-- header section strats -->
-      <!-- slider section -->
-
-      <section class="slider_section" style="margin-top: 60px">
-        <div class="slider_container">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner hero">
-              <!-- Slide content will be dynamically added here using jQuery -->
-            </div>
-            <div class="carousel_btn-box">
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleIndicators"
-                role="button"
-                data-slide="prev"
-              >
-                <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                <span class="sr-only">Previous</span>
-              </a>
-              <img src="images/line.png" alt="" />
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleIndicators"
-                role="button"
-                data-slide="next"
-              >
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
+          <div class="carousel_btn-box">
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+            </a>
+            <img src="images/line.png" alt="" />
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- end slider section -->
-    </div>
-    <!-- end hero area -->
+    <!-- end slider section -->
+  </div>
+  <!-- end hero area -->
 
-    <!-- shop section -->
+  <!-- shop section -->
 
-    <section class="shop_section layout_padding page-section" id="shop">
-      <div class="container">
-        <div class="heading_container heading_center">
-          <h2>Best Products</h2>
-        </div>
-        <div class="row" id="product-list">
-          <!-- Your product list here -->
-        </div>
-        <!-- <div class="btn-box">
+  <section class="shop_section layout_padding page-section" id="shop">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>Best Products</h2>
+      </div>
+      <div class="row" id="product-list">
+        <!-- Your product list here -->
+      </div>
+      <!-- <div class="btn-box">
           <a href=""> View All Products </a>
         </div> -->
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- end shop section -->
+  <!-- end shop section -->
 
-    <!-- saving section -->
+  <!-- saving section -->
 
-    <section class="saving_section page-section">
-      <div class="box">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="img-box">
-                <img src="images/saving-img.png" alt="" />
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="detail-box">
-                <div class="heading_container">
-                  <h2>
-                    Karena Setiap Langkahmu <br />
-                    Pantas Diapresiasi
-                  </h2>
-                </div>
-                <p>
-                  kami yakin bahwa apresiasi terhadap diri sendiri adalah kunci
-                  untuk kebahagiaan yang berkelanjutan. Bergabunglah dengan kami
-                  dan nikmati pengalaman belanja yang membangkitkan semangat,
-                  karena kamu memang layak diapresiasi.
-                </p>
-                <div class="btn-box">
-                  <a href="#" class="btn1"> Buy Now </a>
-                  <a href="#" class="btn2"> See More </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- end saving section -->
-
-    <!-- why section -->
-
-    <section class="why_section layout_padding page-section" id="why">
-      <div class="container">
-        <div class="heading_container heading_center">
-          <h2>Why Shop With Us</h2>
-        </div>
+  <section class="saving_section page-section">
+    <div class="box">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
-            <div class="box">
-              <div class="img-box">
-                <i class="fas fa-tags myicon fa-xl"></i>
-              </div>
-              <div class="detail-box">
-                <h5>BANYAK VARIASI</h5>
-                <p>Banyak pilihan variasi bisa custom suka suka</p>
-              </div>
+          <div class="col-lg-6">
+            <div class="img-box">
+              <img src="images/saving-img.png" alt="" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="box">
-              <div class="img-box">
-                <i class="fas fa-handshake myicon fa-xl"></i>
+          <div class="col-lg-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2>
+                  Karena Setiap Langkahmu <br />
+                  Pantas Diapresiasi
+                </h2>
               </div>
-              <div class="detail-box">
-                <h5>HARGA BERSAHABAT</h5>
-                <p>
-                  Diskusikan pilihan anda dan dapatkan kesepakatan harga yang
-                  bersahabat
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="box">
-              <div class="img-box">
-                <i class="fas fa-award myicon fa-xl"></i>
-              </div>
-              <div class="detail-box">
-                <h5>QUALITAS TERBAIK</h5>
-                <p>
-                  Kualitas bahan terbaik dan di rancang dari tangan seniman
-                  terbaik
-                </p>
+              <p>
+                kami yakin bahwa apresiasi terhadap diri sendiri adalah kunci
+                untuk kebahagiaan yang berkelanjutan. Bergabunglah dengan kami
+                dan nikmati pengalaman belanja yang membangkitkan semangat,
+                karena kamu memang layak diapresiasi.
+              </p>
+              <div class="btn-box">
+                <a href="#" class="btn1"> Buy Now </a>
+                <a href="#" class="btn2"> See More </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- <section class="gift_section layout_padding-bottom">
+    </div>
+  </section>
+
+  <!-- end saving section -->
+
+  <!-- why section -->
+
+  <section class="why_section layout_padding page-section" id="why">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>Why Shop With Us</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <i class="fas fa-tags myicon fa-xl"></i>
+            </div>
+            <div class="detail-box">
+              <h5>BANYAK VARIASI</h5>
+              <p>Banyak pilihan variasi bisa custom suka suka</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <i class="fas fa-handshake myicon fa-xl"></i>
+            </div>
+            <div class="detail-box">
+              <h5>HARGA BERSAHABAT</h5>
+              <p>
+                Diskusikan pilihan anda dan dapatkan kesepakatan harga yang
+                bersahabat
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <i class="fas fa-award myicon fa-xl"></i>
+            </div>
+            <div class="detail-box">
+              <h5>QUALITAS TERBAIK</h5>
+              <p>
+                Kualitas bahan terbaik dan di rancang dari tangan seniman
+                terbaik
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="gift_section layout_padding-bottom">
     <div class="box">
       <div class="container-fluid">
         <div class="row">
@@ -328,15 +295,15 @@
       </div>
     </div>
   </section> -->
-    <!-- end why section -->
+  <!-- end why section -->
 
-    <!-- gift section -->
+  <!-- gift section -->
 
-    <!-- end gift section -->
+  <!-- end gift section -->
 
-    <!-- contact section -->
+  <!-- contact section -->
 
-    <!-- <section class="contact_section" id="contact">
+  <!-- <section class="contact_section" id="contact">
     <div class="container px-0">
       <div class="heading_container">
         <h2 class="">Contact Us</h2>
@@ -377,84 +344,67 @@
     </div>
   </section> -->
 
-    <!-- end contact section -->
+  <!-- end contact section -->
 
-    <!-- client section -->
-    <section
-      class="client_section layout_padding page-section"
-      id="testimonial"
-    >
+  <!-- client section -->
+  <section class="client_section layout_padding page-section" id="testimonial">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>Testimonial</h2>
+      </div>
+    </div>
+    <div class="container px-0">
+      <div id="customCarousel2" class="carousel carousel-fade" data-ride="carousel">
+        <div class="carousel-inner testibund">
+          <!-- Carousel items will be added dynamically using jQuery -->
+        </div>
+        <div class="carousel_btn-box">
+          <a class="carousel-control-prev" href="#customCarousel2" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#customCarousel2" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end client section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2-top">
+    <div class="social_container">
+      <div class="social_box">
+        <a href="">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="info_container">
       <div class="container">
-        <div class="heading_container heading_center">
-          <h2>Testimonial</h2>
-        </div>
-      </div>
-      <div class="container px-0">
-        <div
-          id="customCarousel2"
-          class="carousel carousel-fade"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner testibund">
-            <!-- Carousel items will be added dynamically using jQuery -->
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <h6>ABOUT KAMU HEBAT</h6>
+            <p>
+              kamilah pandangan hidup, panggilan untuk mengangkat,
+              mengapresiasi satu sama lain, dan keyakinan bahwa setiap
+              individu memiliki potensi untuk menciptakan kehebatan dalam
+              kehidupan mereka.
+            </p>
           </div>
-          <div class="carousel_btn-box">
-            <a
-              class="carousel-control-prev"
-              href="#customCarousel2"
-              role="button"
-              data-slide="prev"
-            >
-              <i class="fa fa-angle-left" aria-hidden="true"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#customCarousel2"
-              role="button"
-              data-slide="next"
-            >
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end client section -->
-
-    <!-- info section -->
-
-    <section class="info_section layout_padding2-top">
-      <div class="social_container">
-        <div class="social_box">
-          <a href="">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-youtube" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-      <div class="info_container">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg-5">
-              <h6>ABOUT KAMU HEBAT</h6>
-              <p>
-                kamilah pandangan hidup, panggilan untuk mengangkat,
-                mengapresiasi satu sama lain, dan keyakinan bahwa setiap
-                individu memiliki potensi untuk menciptakan kehebatan dalam
-                kehidupan mereka.
-              </p>
-            </div>
-            <!-- <div class="col-md-6 col-lg-3">
+          <!-- <div class="col-md-6 col-lg-3">
             <div class="info_form">
               <h5>Newsletter</h5>
               <form action="#">
@@ -463,78 +413,77 @@
               </form>
             </div>
           </div> -->
-            <div class="col-md-6 col-lg-4">
-              <h6>NEED HELP</h6>
-              <p>
-                kami siap sedia untuk menyediakan media apresiasi atas
-                perjuanganmu atau orang orang hebat dalam hidupmu, karena kamu
-                hebat.
-              </p>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <h6>CONTACT US</h6>
-              <div class="info_link-box">
-                <a href="">
-                  <i class="fas fa-globe-asia p-2"></i>
-                  <span style="text-align: left"
-                    >St. Benowo II, Sonojiwan, Makamhaji, Sukoharjo
-                  </span>
-                </a>
-                <a href="https://wa.me/62">
-                  <i class="fas fa-phone-alt p-2"></i>
-                  <span style="text-align: left">+62 00000</span>
-                </a>
-                <a href="">
-                  <i class="far fa-envelope p-2"></i>
-                  <span style="text-align: left">kamuhebat@gmail.com</span>
-                </a>
-              </div>
+          <div class="col-md-6 col-lg-4">
+            <h6>NEED HELP</h6>
+            <p>
+              kami siap sedia untuk menyediakan media apresiasi atas
+              perjuanganmu atau orang orang hebat dalam hidupmu, karena kamu
+              hebat.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h6>CONTACT US</h6>
+            <div class="info_link-box">
+              <a href="">
+                <i class="fas fa-globe-asia p-2"></i>
+                <span style="text-align: left">St. Benowo II, Sonojiwan, Makamhaji, Sukoharjo
+                </span>
+              </a>
+              <a href="https://wa.me/62">
+                <i class="fas fa-phone-alt p-2"></i>
+                <span style="text-align: left">+62 00000</span>
+              </a>
+              <a href="">
+                <i class="far fa-envelope p-2"></i>
+                <span style="text-align: left">kamuhebat@gmail.com</span>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <!-- footer section -->
-      <footer class="footer_section">
-        <div class="container">
-          <p>
-            &copy; <span id="displayYear"></span> All Rights Reserved By
-            <a href="#">KAMU HEBAT</a>
-          </p>
-        </div>
-      </footer>
-      <!-- footer section -->
-    </section>
+    </div>
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="#">KAMU HEBAT</a>
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+  </section>
 
-    <!-- end info section -->
+  <!-- end info section -->
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script>
-      // JSON data for carousel items
-      var carouselData = [
-        {
-          name: "Agnes Monica",
-          subname: "Artist Singer",
-          text: "I recently purchased a beautiful bouquet of roses from KAMU HEBAT store, and I must say it exceeded my expectations! The flowers were fresh, vibrant, and arranged with great care. The fragrance filled my home, creating a delightful atmosphere. Thank you for providing such a wonderful floral experience. I will definitely be a repeat customer!.",
-        },
-        {
-          name: "Cinta Laura",
-          subname: "Artist Singer",
-          text: "I recently bought a super cute keychain from KAMU HEBAT store, and it's absolutely adorable! The design is unique and adds a touch of fun to my everyday life. The quality is excellent, and it's the perfect accessory for my keys. KAMU HEBAT store offers a fantastic selection of charming items, and I'm thrilled with my purchase. Thank you for bringing joy to my daily routine!",
-        },
-        {
-          name: "Afgan Syahreza",
-          subname: "Artist Singer",
-          text: "I recently purchased a unique bouquet made of real currency from KAMU HEBAT store. It's such a creative and thoughtful gift! The arrangement was beautifully crafted, and the idea of using actual money adds an extra element of surprise and excitement. Thank you for providing such an innovative and memorable way to express appreciation. The recipient was thrilled, and it made the occasion truly special!.",
-        },
-      ];
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    // JSON data for carousel items
+    var carouselData = [
+      {
+        name: "Agnes Monica",
+        subname: "Artist Singer",
+        text: "I recently purchased a beautiful bouquet of roses from KAMU HEBAT store, and I must say it exceeded my expectations! The flowers were fresh, vibrant, and arranged with great care. The fragrance filled my home, creating a delightful atmosphere. Thank you for providing such a wonderful floral experience. I will definitely be a repeat customer!.",
+      },
+      {
+        name: "Cinta Laura",
+        subname: "Artist Singer",
+        text: "I recently bought a super cute keychain from KAMU HEBAT store, and it's absolutely adorable! The design is unique and adds a touch of fun to my everyday life. The quality is excellent, and it's the perfect accessory for my keys. KAMU HEBAT store offers a fantastic selection of charming items, and I'm thrilled with my purchase. Thank you for bringing joy to my daily routine!",
+      },
+      {
+        name: "Afgan Syahreza",
+        subname: "Artist Singer",
+        text: "I recently purchased a unique bouquet made of real currency from KAMU HEBAT store. It's such a creative and thoughtful gift! The arrangement was beautifully crafted, and the idea of using actual money adds an extra element of surprise and excitement. Thank you for providing such an innovative and memorable way to express appreciation. The recipient was thrilled, and it made the occasion truly special!.",
+      },
+    ];
 
-      // Loop through JSON data and create carousel items
-      $.each(carouselData, function (index, item) {
-        var activeClass = index === 0 ? "active" : "";
-        var carouselItem = `
+    // Loop through JSON data and create carousel items
+    $.each(carouselData, function (index, item) {
+      var activeClass = index === 0 ? "active" : "";
+      var carouselItem = `
               <div class="carousel-item ${activeClass}">
                   <div class="box">
                       <div class="client_info">
@@ -548,205 +497,205 @@
                   </div>
               </div>
           `;
-        $(".testibund").append(carouselItem);
-      });
+      $(".testibund").append(carouselItem);
+    });
 
-      // Initialize the carousel
-      $("#myCarousel").carousel();
-    </script>
-    <script>
-      $(document).ready(function () {
-        // Array of product data
-        var products = [
-          {
-            name: "Bouquet Custom As You Want",
-            price: "Start from Rp. 50K",
-            image: "images/p(1).png",
-            link: "https://",
-          },
-          {
-            name: "GOLD PEN",
-            price: "Rp. 5K",
-            image: "images/p(2).png",
-            link: "https://",
-          },
-          {
-            name: "KEY CHAIN",
-            price: "Rp. 2K",
-            image: "images/p(3).png",
-            link: "https://",
-          },
-          {
-            name: "CHARACTER KEYCHAIN ",
-            price: "Rp. 5K",
-            image: "images/p(4).png",
-            link: "https://",
-          },
-          {
-            name: "SILVER PEN",
-            price: "Rp. 5K",
-            image: "images/p(5).png",
-            link: "https://",
-          },
-          {
-            name: "CUTE KEYCHAIN",
-            price: "Rp. 2K",
-            image: "images/p(6).png",
-            link: "https://",
-          },
-          {
-            name: "DORAEMON KEYCHAIN",
-            price: "Rp. 5K",
-            image: "images/p(7).png",
-            link: "https://",
-          },
-          {
-            name: "DORAEMON MIRROR",
-            price: "Rp. 8K",
-            image: "images/p(8).png",
-            link: "https://",
-          },
-        ];
+    // Initialize the carousel
+    $("#myCarousel").carousel();
+  </script>
+  <script>
+    $(document).ready(function () {
+      // Array of product data
+      var products = [
+        {
+          name: "Bouquet Custom As You Want",
+          price: "Start from Rp. 50K",
+          image: "images/p(1).png",
+          link: "https://",
+        },
+        {
+          name: "GOLD PEN",
+          price: "Rp. 5K",
+          image: "images/p(2).png",
+          link: "https://",
+        },
+        {
+          name: "KEY CHAIN",
+          price: "Rp. 2K",
+          image: "images/p(3).png",
+          link: "https://",
+        },
+        {
+          name: "CHARACTER KEYCHAIN ",
+          price: "Rp. 5K",
+          image: "images/p(4).png",
+          link: "https://",
+        },
+        {
+          name: "SILVER PEN",
+          price: "Rp. 5K",
+          image: "images/p(5).png",
+          link: "https://",
+        },
+        {
+          name: "CUTE KEYCHAIN",
+          price: "Rp. 2K",
+          image: "images/p(6).png",
+          link: "https://",
+        },
+        {
+          name: "DORAEMON KEYCHAIN",
+          price: "Rp. 5K",
+          image: "images/p(7).png",
+          link: "https://",
+        },
+        {
+          name: "DORAEMON MIRROR",
+          price: "Rp. 8K",
+          image: "images/p(8).png",
+          link: "https://",
+        },
+      ];
 
-        // Loop through the products and append them to the product list
-        for (var i = 0; i < products.length; i++) {
-          var product = products[i];
-          var productHTML =
-            '<div class="col-sm-6 col-md-4 col-lg-3">' +
-            '<div class="box">' +
-            '<a href="' +
-            product.link +
-            '">' +
-            '<div class="img-box">' +
-            '<img src="' +
-            product.image +
-            '" alt="" />' +
-            "</div>" +
-            '<div class="detail-box">' +
-            "<h6>";
-          "</h6>" +
-            "<h6><span>" +
-            product.price +
-            "</span></h6>" +
-            "</div>" +
-            '<div class="new">' +
-            "<span>" +
-            product.name +
-            "</span>" +
-            "</div>" +
-            "</a>" +
-            "</div>" +
-            "</div>";
+      // Loop through the products and append them to the product list
+      for (var i = 0; i < products.length; i++) {
+        var product = products[i];
+        var productHTML =
+          '<div class="col-sm-6 col-md-4 col-lg-3">' +
+          '<div class="box">' +
+          '<a href="' +
+          product.link +
+          '">' +
+          '<div class="img-box">' +
+          '<img src="' +
+          product.image +
+          '" alt="" />' +
+          "</div>" +
+          '<div class="detail-box">' +
+          "<h6>Judul</h6>" +
+          "<h6>Harga<span>" +
+          product.price +
+          "</span></h6>" +
+          "</div>" +
+          '<div class="new">' +
+          "<span>" +
+          product.name +
+          "</span>" +
+          "</div>" +
+          "</a>" +
+          "</div>" +
+          "</div>";
 
-          // Append the productHTML to the product list
-          $("#product-list").append(productHTML);
-        }
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        // Array of slide data
-        var slides = [
-          {
-            title: "Welcome To <br> KAMU HEBAT",
-            description:
-              "KAMU HEBAT adalah pandangan hidup, panggilan untuk mengangkat satu sama lain, dan keyakinan bahwa setiap individu memiliki potensi untuk menciptakan kehebatan dalam kehidupan mereka.",
-            buttonText: "CONTACT Us",
-            image: "images/p(1).png",
-          },
-          {
-            title: "Why KAMU HEBAT",
-            description:
-              "Kamu Hebat bukan hanya sekadar rangkaian kata atau frasa, melainkan sebuah panggilan untuk mengakui potensi luar biasa yang tersembunyi dalam setiap individu. Filosofi di balik Kamu Hebat muncul dari keyakinan bahwa kehebatan ada di dalam diri kita sendiri dan setiap orang memiliki kapasitas untuk mencapai hal-hal yang luar biasa.",
-            buttonText: "Contact Us",
-            image: "images/p(1).png",
-          },
-          {
-            title: "Rayakan Pencapaianmu, <br> karena Kamu Hebat",
-            description:
-              "Kamu Hebat mengajak setiap orang untuk merayakan pencapaian mereka, sekecil apapun itu. Dalam perjalanan mencapai impian, pengakuan terhadap setiap langkah kecil adalah bagian penting dari perjalanan kehebatan.",
-            buttonText: "Contact Us",
-            image: "images/p(1).png",
-          },
-        ];
+        // Append the productHTML to the product list
+        $("#product-list").append(productHTML);
+      }
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      // Array of slide data
+      var slides = [
+        {
+          title: "Welcome To <br> KAMU HEBAT",
+          description:
+            "KAMU HEBAT adalah pandangan hidup, panggilan untuk mengangkat satu sama lain, dan keyakinan bahwa setiap individu memiliki potensi untuk menciptakan kehebatan dalam kehidupan mereka.",
+          buttonText: "CONTACT Us",
+          image: "images/p(1).png",
+        },
+        {
+          title: "Why KAMU HEBAT",
+          description:
+            "Kamu Hebat bukan hanya sekadar rangkaian kata atau frasa, melainkan sebuah panggilan untuk mengakui potensi luar biasa yang tersembunyi dalam setiap individu. Filosofi di balik Kamu Hebat muncul dari keyakinan bahwa kehebatan ada di dalam diri kita sendiri dan setiap orang memiliki kapasitas untuk mencapai hal-hal yang luar biasa.",
+          buttonText: "Contact Us",
+          image: "images/p(1).png",
+        },
+        {
+          title: "Rayakan Pencapaianmu, <br> karena Kamu Hebat",
+          description:
+            "Kamu Hebat mengajak setiap orang untuk merayakan pencapaian mereka, sekecil apapun itu. Dalam perjalanan mencapai impian, pengakuan terhadap setiap langkah kecil adalah bagian penting dari perjalanan kehebatan.",
+          buttonText: "Contact Us",
+          image: "images/p(1).png",
+        },
+      ];
 
-        // Loop through the slides and append them to the carousel
-        for (var i = 0; i < slides.length; i++) {
-          var slide = slides[i];
-          var activeClass = i === 0 ? "active" : "";
+      // Loop through the slides and append them to the carousel
+      for (var i = 0; i < slides.length; i++) {
+        var slide = slides[i];
+        var activeClass = i === 0 ? "active" : "";
 
-          var slideHTML =
-            '<div class="carousel-item ' +
-            activeClass +
-            '">' +
-            '<div class="container-fluid">' +
-            '<div class="row">' +
-            '<div class="col-md-7">' +
-            '<div class="detail-box">' +
-            "<h1>" +
-            slide.title +
-            "</h1>" +
-            "<p>" +
-            slide.description +
-            "</p>" +
-            '<a href="">' +
-            slide.buttonText +
-            "</a>" +
-            "</div>" +
-            "</div>" +
-            '<div class="col-md-5">' +
-            '<div class="img-box">' +
-            '<img src="' +
-            slide.image +
-            '" alt="" />' +
-            "</div>" +
-            "</div>" +
-            "</div>" +
-            "</div>" +
-            "</div>";
+        var slideHTML =
+          '<div class="carousel-item ' +
+          activeClass +
+          '">' +
+          '<div class="container-fluid">' +
+          '<div class="row">' +
+          '<div class="col-md-7">' +
+          '<div class="detail-box">' +
+          "<h1>" +
+          slide.title +
+          "</h1>" +
+          "<p>" +
+          slide.description +
+          "</p>" +
+          '<a href="">' +
+          slide.buttonText +
+          "</a>" +
+          "</div>" +
+          "</div>" +
+          '<div class="col-md-5">' +
+          '<div class="img-box">' +
+          '<img src="' +
+          slide.image +
+          '" alt="" />' +
+          "</div>" +
+          "</div>" +
+          "</div>" +
+          "</div>" +
+          "</div>";
 
-          // Append the slideHTML to the carousel inner
-          $(".hero").append(slideHTML);
-        }
-      });
-    </script>
-    <script>
-      $(window)
-        .scroll(function () {
-          var scrollDistance = $(window).scrollTop();
+        // Append the slideHTML to the carousel inner
+        $(".hero").append(slideHTML);
+      }
+    });
+  </script>
+  <script>
+    $(window)
+      .scroll(function () {
+        var scrollDistance = $(window).scrollTop();
 
-          // Assign active class to nav links while scolling
-          $(".page-section").each(function (i) {
-            if ($(this).position().top <= scrollDistance) {
-              $("ul.navbar-nav li.active").removeClass("active");
-              $("ul.navbar-nav li").eq(i).addClass("active");
-            }
-          });
-        })
-        .scroll();
-
-      $(document).ready(function () {
-        $("a[href*=#]").bind("click", function (e) {
-          e.preventDefault(); // prevent hard jump, the default behavior
-
-          var target = $(this).attr("href"); // Set the target as variable
-
-          // perform animated scrolling by getting top-position of target-element and set it as scroll target
-          $("html, body")
-            .stop()
-            .animate(
-              {
-                scrollTop: $(target).offset().bottom,
-              },
-              600,
-              function () {
-                location.hash = target; //attach the hash (#jumptarget) to the pageurl
-              }
-            );
-
-          return false;
+        // Assign active class to nav links while scolling
+        $(".page-section").each(function (i) {
+          if ($(this).position().top <= scrollDistance) {
+            $("ul.navbar-nav li.active").removeClass("active");
+            $("ul.navbar-nav li").eq(i).addClass("active");
+          }
         });
+      })
+      .scroll();
+
+    $(document).ready(function () {
+      $("a[href*=#]").bind("click", function (e) {
+        e.preventDefault(); // prevent hard jump, the default behavior
+
+        var target = $(this).attr("href"); // Set the target as variable
+
+        // perform animated scrolling by getting top-position of target-element and set it as scroll target
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $(target).offset().bottom,
+            },
+            600,
+            function () {
+              location.hash = target; //attach the hash (#jumptarget) to the pageurl
+            }
+          );
+
+        return false;
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
